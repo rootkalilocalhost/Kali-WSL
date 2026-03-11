@@ -1,6 +1,6 @@
 # Windows 10 LTSC x64
-# Installation subsystem Kali Linux (WSL)
-=========================================
+# Installation WSL subsystem Kali Linux ㉿
+==========================================
 1) Enable Windows-Subsystem-Linux
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -21,4 +21,5 @@ Add-AppxPackage .\kali-linux.AppxBundle
 =======================================
 PS> wsl -l -v
 PS> wsl --update
+
 ================
